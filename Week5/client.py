@@ -18,9 +18,3 @@ client.on_message = on_message
 
 client.connect("3.24.218.246", 1883, 60)
 client.loop_forever()
-
-
-
-
-
-
