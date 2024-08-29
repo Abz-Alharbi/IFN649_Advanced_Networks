@@ -1,7 +1,7 @@
 import paho.mqtt.publish as publish
 import serial
 
-ser = serial.Serial("/dev/rfcomm1", 9600)  # Adjust to your serial port
+ser = serial.Serial("/dev/rfcomm1", 9600)  
 
 while True:
     if ser.in_waiting > 0:
